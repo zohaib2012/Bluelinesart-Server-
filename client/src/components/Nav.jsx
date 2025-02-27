@@ -21,24 +21,24 @@ const Nav = () => {
 
 
 
-            <Link href="/ProductSaleForm">
+            <Link to="/ProductSaleForm">
 
               <button className="inline-flex items-center justify-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition transform hover:translate-y-[-2px] hover:shadow-md">
                 <i className="fas fa-check mr-2" /> ProductSaleForm
               </button>/
             </Link>
 
-            <Link href="/AddExpenseAmountForm">
+            <Link to="/AddExpenseAmountForm">
               <button className="inline-flex items-center justify-center bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition transform hover:translate-y-[-2px] hover:shadow-md">
                 <i className="fas fa-times mr-2" />AddExpenseAmountForm
               </button>
             </Link>
-            <Link href="/ExpensesAmountList">
+            <Link to="/ExpensesAmountList">
               <button className="inline-flex items-center justify-center bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition transform hover:translate-y-[-2px] hover:shadow-md">
                 <i className="fas fa-times mr-2" />ExpensesAmountList
               </button>
             </Link>
-            <Link href="/ExpenseListComponent">
+            <Link to="/ExpenseListComponent">
               <button className="inline-flex items-center justify-center bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition transform hover:translate-y-[-2px] hover:shadow-md">
                 <i className="fas fa-times mr-2" />ExpenseListComponent
               </button>
@@ -47,46 +47,46 @@ const Nav = () => {
 
 
 
-            <Link href="/ProductForm">
+            <Link to="/ProductForm">
               <button className="inline-flex items-center justify-center bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition transform hover:translate-y-[-2px] hover:shadow-md">
                 <i className="fas fa-plus mr-2" /> ProductForm
               </button>
             </Link>
 
-            <Link href="/ProductList">
+            <Link to="/ProductList">
               <button className="inline-flex items-center justify-center bg-lime-950 text-white px-4 py-2 rounded hover:bg-lime-900 transition transform hover:translate-y-[-2px] hover:shadow-md">
                 <i className="fas fa-info mr-2" /> product
               </button>
             </Link>
-            <Link href="/Categories">
+            <Link to="/Categories">
               <button className="inline-flex items-center justify-center bg-emerald-700 text-white px-4 py-2 rounded hover:bg-emerald-900 transition transform hover:translate-y-[-2px] hover:shadow-md">
                 <i className="fas fa-info mr-2" /> Categories
               </button>
 
             </Link>
 
-            <Link href="IncomeAmountList">
+            <Link to="IncomeAmountList">
               <button className="inline-flex items-center justify-center bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600 transition transform hover:translate-y-[-2px] hover:shadow-md">
                 <i className="fas fa-exclamation-triangle mr-2" /> IncomeAmountList
               </button>
             </Link>
-            <Link href="/AddIncomeSourceForm">
+            <Link to="/AddIncomeSourceForm">
               <button className="inline-flex items-center justify-center bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600 transition transform hover:translate-y-[-2px] hover:shadow-md">
                 <i className="fas fa-info mr-2" /> AddIncomeSourceForm
               </button>
             </Link>
-            <Link href="/incomesources">
+            <Link to="/incomesources">
               <button className="inline-flex items-center justify-center bg-purple-900 text-white px-4 py-2 rounded hover:bg-purple-950 transition transform hover:translate-y-[-2px] hover:shadow-md">
                 <i className="fas fa-info mr-2" /> incomesources
               </button>
             </Link>
-            <Link href="/AddVendorForm">
+            <Link to="/AddVendorForm">
 
               <button className="inline-flex items-center justify-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition transform hover:translate-y-[-2px] hover:shadow-md">
                 <i className="fas fa-check mr-2" />AddVendorForm
               </button>
             </Link>
-            <Link href="/VendorList">
+            <Link to="/VendorList">
 
               <button className="inline-flex items-center justify-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition transform hover:translate-y-[-2px] hover:shadow-md">
                 <i className="fas fa-check mr-2" />VendorList
